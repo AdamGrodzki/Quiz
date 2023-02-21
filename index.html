@@ -45,12 +45,27 @@
                 <div class="invalid-feedback">Incorrect!</div>
             </div>
             <div class="mt-3">
-                <button id="saveAnwerButton" class="btn btn-outline-primary">Check</button>
+                <button id="saveAnswerButton" class="btn btn-outline-primary">Check</button>
                 <button id="nextQuestionButton" class="btn btn-outline-secondary ml-2">Next Question</button>
             </div>
             <hr>
             <p>Correct Answers: <span id="corrrectAnswers"></span></p>
-            <p>Incorrect Answers: <span id="incorrrectAnswers"></span></p>
+            <p>Incorrect Answers: <span id="incorrectAnswers"></span></p>
+        </div>
+    </div>
+    <div class="modal fade" id="modalWindow" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Result: </h5>
+                </div>
+                <div class="modal-body">
+                    <p id="modalResults"></p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal" id="closeModal">Close</button>
+                </div>
+            </div>
         </div>
     </div>
 
